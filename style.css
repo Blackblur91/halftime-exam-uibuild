@@ -16,6 +16,7 @@ body {
 }
 
 form {
+  max width: 600px;
   box-sizing: border-box;
 
   display: flex;
@@ -74,7 +75,7 @@ form div {
   flex-direction: row;
   gap: 10px;
   color: rgb(77, 114, 77);
-  margin-right: 10px;
+  
 }
 
 form div input {
@@ -99,6 +100,8 @@ button {
   max-width: 280px;
   max-height: 80px;
   letter-spacing: 0.2em;
+  align-items: center;
+
 
   padding: 10px;
   text-transform: uppercase;
@@ -114,4 +117,21 @@ button {
     font-size: 24px;
     text-align: left;
   }
+
+  input {
+    width: 100% - 40px;
+    padding: 20px;
+  }
+
+  textarea {
+    width: 100% - 40px;
+    padding: 20px;
+  }
+
+  form div {
+    padding: 20px;
+  }
+
 }
+  
+
