@@ -4,7 +4,7 @@ document.querySelector("#root").insertAdjacentHTML("beforeend", `
 
   <input type="text" placeholder="Tárgy">
 
-  <textarea placeholder="Megjegyzés" id="" cols="30" rows="10"></textarea>
+  <textarea placeholder="Megjegyzés" cols="100" rows="50"></textarea>
 
   <div>
     <input type="checkbox">
