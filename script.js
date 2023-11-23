@@ -1,3 +1,5 @@
+setTimeout(5000)
+
 document.querySelector("#root").insertAdjacentHTML("beforeend", `
 <form>
   <h1>Visszajelzés</h1>
